@@ -9,11 +9,11 @@ size_c = int(raw_c)
 if size_a == 0 or size_b == 0 or size_c == 0:
     print('There isnt triangle')
 
-perimeter = size_a + size_b + size_c
-
 '''
 if perimeter > 20 thеn print(...) elif perimeter < 10 thеn print(...)
 '''
+
+perimeter = size_a + size_b + size_c
 
 if perimeter > 20:
     print('The biggest size = ' , max(size_a, size_b, size_c))
