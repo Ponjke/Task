@@ -6,10 +6,13 @@ size_a = int(raw_a)
 size_b = int(raw_b)
 size_c = int(raw_c)
 
+if size_a == 0 or size_b == 0 or size_c == 0:
+    print('There isnt triangle')
+
 perimeter = size_a + size_b + size_c
 
 '''
-if perimeter > 20 thеn print(...) elif perimeter < 10 thеn print(...) else size_a or size_b or size_c == 0 thеn print(...)
+if perimeter > 20 thеn print(...) elif perimeter < 10 thеn print(...)
 '''
 
 if perimeter > 20:
@@ -19,5 +22,4 @@ elif perimeter < 10:
 
 print('Perimeter = ' , perimeter)
 
-if size_a == 0 or size_b == 0 or size_c == 0:
-    print('There isnt triangle')
+
