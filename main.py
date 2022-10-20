@@ -17,9 +17,9 @@ elif size_a > 0 and size_b > 0 and size_c > 0:
 if perimeter > 20 thеn print(...) elif perimeter < 10 thеn prin(...)
 '''
 
-if perimeter > 20:
+if perimeter > 20 and size_a > 0 and size_b > 0 and size_c > 0:
     print('The biggest size = ', max(size_a, size_b, size_c))
-elif perimeter < 10:
+elif perimeter < 10 and size_a > 0 and size_b > 0 and size_c > 0:
     print('The smallest size = ', min(size_a, size_b, size_c))
 
 
